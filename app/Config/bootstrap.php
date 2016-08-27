@@ -25,6 +25,7 @@
  */
 
 // Setup a 'default' cache configuration for use in the application.
+App::uses('AuthComponent', 'Controller/Component');
 Cache::config('default', array('engine' => 'File'));
 
 /**
