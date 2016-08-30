@@ -46,3 +46,11 @@
 [27-Aug-2016 14:57:11 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:187
 [27-Aug-2016 14:57:11 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
 [27-Aug-2016 14:57:11 UTC] PHP   6. PostsController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[27-Aug-2016 15:02:04 UTC] PHP Fatal error:  Call to a member function success() on a non-object in /home/ubuntu/workspace/app/Controller/PostsController.php on line 27
+[27-Aug-2016 15:02:04 UTC] PHP Stack trace:
+[27-Aug-2016 15:02:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[27-Aug-2016 15:02:04 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:110
+[27-Aug-2016 15:02:04 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:162
+[27-Aug-2016 15:02:04 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:187
+[27-Aug-2016 15:02:04 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[27-Aug-2016 15:02:04 UTC] PHP   6. PostsController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
