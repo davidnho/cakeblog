@@ -54,3 +54,35 @@
 [27-Aug-2016 15:02:04 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:187
 [27-Aug-2016 15:02:04 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
 [27-Aug-2016 15:02:04 UTC] PHP   6. PostsController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[30-Aug-2016 15:18:52 UTC] PHP Fatal error:  Call to undefined method FlashComponent::error() in /home/ubuntu/workspace/app/Controller/PostsController.php on line 30
+[30-Aug-2016 15:18:52 UTC] PHP Stack trace:
+[30-Aug-2016 15:18:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[30-Aug-2016 15:18:52 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:110
+[30-Aug-2016 15:18:52 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:162
+[30-Aug-2016 15:18:52 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:187
+[30-Aug-2016 15:18:52 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[30-Aug-2016 15:18:52 UTC] PHP   6. PostsController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[30-Aug-2016 15:21:21 UTC] PHP Fatal error:  Call to undefined method FlashComponent::error() in /home/ubuntu/workspace/app/Controller/PostsController.php on line 30
+[30-Aug-2016 15:21:21 UTC] PHP Stack trace:
+[30-Aug-2016 15:21:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[30-Aug-2016 15:21:21 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:110
+[30-Aug-2016 15:21:21 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:162
+[30-Aug-2016 15:21:21 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:187
+[30-Aug-2016 15:21:21 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[30-Aug-2016 15:21:21 UTC] PHP   6. PostsController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[30-Aug-2016 15:22:14 UTC] PHP Fatal error:  Call to undefined method FlashComponent::error() in /home/ubuntu/workspace/app/Controller/PostsController.php on line 30
+[30-Aug-2016 15:22:14 UTC] PHP Stack trace:
+[30-Aug-2016 15:22:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[30-Aug-2016 15:22:14 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:110
+[30-Aug-2016 15:22:14 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:162
+[30-Aug-2016 15:22:14 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:187
+[30-Aug-2016 15:22:14 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[30-Aug-2016 15:22:14 UTC] PHP   6. PostsController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[30-Aug-2016 15:23:22 UTC] PHP Fatal error:  Call to undefined method FlashComponent::error() in /home/ubuntu/workspace/app/Controller/PostsController.php on line 30
+[30-Aug-2016 15:23:22 UTC] PHP Stack trace:
+[30-Aug-2016 15:23:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/app/webroot/index.php:0
+[30-Aug-2016 15:23:22 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/app/webroot/index.php:110
+[30-Aug-2016 15:23:22 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:162
+[30-Aug-2016 15:23:22 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/lib/Cake/Routing/Dispatcher.php:187
+[30-Aug-2016 15:23:22 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490
+[30-Aug-2016 15:23:22 UTC] PHP   6. PostsController->add() /home/ubuntu/workspace/lib/Cake/Controller/Controller.php:490

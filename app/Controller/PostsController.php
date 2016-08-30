@@ -1,15 +1,15 @@
 <?php
 
 class PostsController extends AppController {
-
-    // public $components = array('Session');
-    public $helpers = array('Html', 'Form');
+    public $helpers = array('Html', 'Form', 'Flash');
+    public $components = array('Flash');
+    public $session = array('Session');
 
     public function index() {
-         $this->set('posts', $this->Post->find('all'));
+        $this->set('posts', $this->Post->find('all'));
     }
 
-    public function view($id = null) {
+    public function view($id) {
         if (!$id) {
             throw new NotFoundException(__('Invalid post'));
         }
@@ -20,16 +20,15 @@ class PostsController extends AppController {
         }
         $this->set('post', $post);
     }
+
     public function add() {
         if ($this->request->is('post')) {
             $this->Post->create();
             if ($this->Post->save($this->request->data)) {
-                // $this->Flash->success(__('Your post has been saved.'));
+                $this->Session->setFlash(__('Your post has been saved.'));
                 return $this->redirect(array('action' => 'index'));
             }
-            $this->Flash->error(__('Unable to add your post.'));
+            $this->Session->setFlash(__('Unable to add your post.'));
         }
     }
-    
-
 }
