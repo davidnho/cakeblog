@@ -1,4 +1,4 @@
-
+<?php echo getenv('REMOTE_ADDR'); ?>
 <h1>Blog posts</h1>
 <table>
     <tr>
